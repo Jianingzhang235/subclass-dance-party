@@ -37,16 +37,20 @@ a:active {
   position: absolute;
 }
 
+
+/*setup dancer styles*/
+body .makeBlinkyDancer {
+    border: 10px solid purple;
+  border-radius: 0px;
+}
+
 body .makeBalletDancer {
   border: 10px solid green;
   border-radius: 0px;
 }
 
-body .makeBlinkyDancer {}
-
-body.makeTangoDancer {
-  /*   try to fix the order
- */
-  border: 10px solid yellow !important border-radius: 0px;
-   !important
+body .makeTangoDancer {
+ 
+  border: 10px solid yellow; 
+  border-radius: 0px;
 }
