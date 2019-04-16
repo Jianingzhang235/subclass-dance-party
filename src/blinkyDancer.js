@@ -7,6 +7,7 @@ makeBlinkyDancer.prototype = Object.create(Dancer.prototype);
 makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;
 makeBlinkyDancer.prototype.step = function () {
   Dancer.prototype.step.call(this);
+  console.log("Step was called");
   this.$node.toggle();
 
 };

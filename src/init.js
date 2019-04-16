@@ -27,6 +27,9 @@ $(document).ready(function () {
       $("body").width() * Math.random(),
       Math.random() * 1000
     );
+    //should know more about addClass;
+    dancer.$node.addClass(dancerMakerFunctionName);
+
     $('body').append(dancer.$node);
   });
 });
