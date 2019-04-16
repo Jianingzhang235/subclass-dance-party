@@ -1,5 +1,6 @@
 var makeTangoDancer = function (top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('makeTangoDancer').prepend("<img src='pics/roof-down.gif' height=142px width=77px/>");
 
 };
 

@@ -7,6 +7,8 @@ body {
   margin: 0px;
   background-color: #444;
   font-size: 18px;
+   background-image: url("pics/spider-web-background.jpg");
+  background-size: cover;
 }
 
 body,
@@ -45,12 +47,27 @@ body .makeBlinkyDancer {
 }
 
 body .makeBalletDancer {
-  border: 10px solid green;
+  border: 0px;
   border-radius: 0px;
 }
 
 body .makeTangoDancer {
  
-  border: 10px solid yellow; 
+  border: 0px; 
+  border-radius: 0px;
+}
+body .makeGrootDance {
+ 
+  border: 0px; 
+  border-radius: 0px;
+}
+body .makeCaptainDance {
+ 
+  border: 0px; 
+  border-radius: 0px;
+}
+body .makeDeadpoolDance {
+ 
+  border: 0px; 
   border-radius: 0px;
 }

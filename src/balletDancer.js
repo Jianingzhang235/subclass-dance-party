@@ -1,5 +1,6 @@
 var makeBalletDancer = function (top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('makeBalletDancer').prepend("<img src='pics/spiderman.gif' height=142px width=142px/>");
 
 };
 
@@ -10,3 +11,4 @@ makeBalletDancer.prototype.step = function () {
   this.$node.toggle();
 
 };
+
