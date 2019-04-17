@@ -7,7 +7,7 @@ body {
   margin: 0px;
   background-color: #444;
   font-size: 18px;
-   background-image: url("pics/spider-web-background.jpg");
+  background-image: url("pics/spider-web-background.jpg");
   background-size: cover;
 }
 
@@ -38,7 +38,8 @@ a:active {
   border-radius: 10px;
   position: absolute;
 }
-.lineUpButton{
+
+.lineUpButton {
   background-color: #8CA7C5;
   width: 12em;
   height: 2.4em;
@@ -46,7 +47,7 @@ a:active {
 
 /*setup dancer styles*/
 body .makeBlinkyDancer {
-    border: 10px solid purple;
+  border: 10px solid purple;
   border-radius: 0px;
 }
 
@@ -60,21 +61,26 @@ body .makeTangoDancer {
   border: 0px;
   border-radius: 0px;
 }
+
 body .makeGrootDance {
 
   border: 0px;
   border-radius: 0px;
 }
+
 body .makeCaptainDance {
 
   border: 0px;
   border-radius: 0px;
 }
+
 body .makeDeadpoolDance {
 
   border: 0px;
   border-radius: 0px;
 }
-audio{
+
+/* audio{
   display: none;
 }
+ */
