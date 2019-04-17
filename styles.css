@@ -38,7 +38,11 @@ a:active {
   border-radius: 10px;
   position: absolute;
 }
-
+.lineUpButton{
+  background-color: #8CA7C5;
+  width: 12em;
+  height: 2.4em;
+}
 
 /*setup dancer styles*/
 body .makeBlinkyDancer {
