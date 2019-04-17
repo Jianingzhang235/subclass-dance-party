@@ -75,3 +75,6 @@ body .makeDeadpoolDance {
   border: 0px; 
   border-radius: 0px;
 }
+audio{
+  display: none;
+}
